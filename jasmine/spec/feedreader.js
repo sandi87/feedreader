@@ -22,7 +22,7 @@ $(
          * allFeeds in app.js to be an empty array and refresh the
          * page?
          */
-      it("are defined", function() {
+      it("allFeeds variable are defined and not empty", function() {
         expect(allFeeds).toBeDefined();
         expect(allFeeds.length).not.toBe(0);
       });
